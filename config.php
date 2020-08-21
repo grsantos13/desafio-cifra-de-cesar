@@ -10,11 +10,7 @@
 	};
 	spl_autoload_register($autoload);
 
-	define("INCLUDE_PATH", "http://localhost/DesenvolvimentoWeb/Projeto Pessoal/Sistema Financeiro/");
-	//Conectar DB
-	define('HOST', 'localhost');
-	define('USER', 'root');
-	define('PASSWORD', '');
-	define('DATABASE', 'financas');
-	define('NOME_EMPRESA', 'Aprimore');
+	define('TOKEN', '3dd186c75ff25e695a85bcb95cfe988fe1ec0de7');
+	define('API_ANSWER_URL', 'https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token='.TOKEN);
+	define('API_DATA_URL', 'https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token='.TOKEN);
 ?>

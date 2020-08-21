@@ -14,7 +14,7 @@
         </header>
         <div class="header-border"></div>
 
-        <form method="POST" action="https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=3dd186c75ff25e695a85bcb95cfe988fe1ec0de7" enctype="multipart/form-data" id="form-envio">
+        <form method="POST" action="<?php echo API_ANSWER_URL; ?>" enctype="multipart/form-data" id="form-envio">
         	<div class="form-group">
 	        	<label>Arquivo Answer.json:</label>
 	        	<div class="input-types">
